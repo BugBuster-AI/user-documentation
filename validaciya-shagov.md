@@ -5,13 +5,13 @@ title: Валидация шагов
 
 Платформа не только проверяет наличие четкого описания действия, но и анализирует контекст шага. При нажатии на кнопку **Save** или **Save and Run** автоматически запускается валидация шагов.
 
--  **Неоднозначные команды** (например, `"Нажать"`) отклоняются с пояснением: `"Unsupported action: The instruction must specify the target element (e.g., 'Нажать кнопку "Вход"')"`.
+-  **Неоднозначные команды** (например, `"Нажать"`) отклоняются с пояснением: `"Unsupported action: The instruction must specify the target element"`.
 
--  **Абстрактные проверки** (например, `"Проверить, что все хорошо"`) вызывают ошибку: `"Invalid assertion: The expected result must be clearly defined`.
+-  **Абстрактные проверки** (например, `"Проверить, что все хорошо"`) вызывают ошибку: `"Invalid assertion: The expected result must be clearly defined"`.
 
 #### **Примеры обработки ошибок**
 
--  Шаг: `"Нажать"` --> Ошибка: `"Missing target: Specify what to interact with`.
+-  Шаг: `"Нажать"` --> Ошибка: `"Missing target: Specify what to interact with"`.
 
 -  Шаг: `"Завести трактор"` --> Ошибка: `"Unsupported action: The platform does not recognize this command. Use actions like 'Кликнуть', 'Ввести текст', etc."`.
 
