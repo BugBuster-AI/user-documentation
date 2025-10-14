@@ -152,9 +152,9 @@ GET https://api.bugbuster.ai/orders?user={{user_id}}&status=active
 | `token`       | `{{response.body.token}}`    |
 | `order_id`    | `{{response.body.order.id}}` |
 
-Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](http://tauri.localhost/gitlab.demo.screenmate.ai/gramax_group/rukovodstvo-polzovatelya/api_steps/-/rabota-s-api/rabota-s-json-putyami-i-obektom-response)
+Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](https://docs.bug-buster.ru/rukovodstvo-polzovatelya/rabota-s-api/rabota-s-json-putyami-i-obektom-response)
 
-Подробнее о создании и редактировании переменных см. инструкцию [Переменные](http://tauri.localhost/gitlab.demo.screenmate.ai/gramax_group/rukovodstvo-polzovatelya/api_steps/-/peremennye)
+Подробнее о создании и редактировании переменных см. инструкцию [Переменные](https://docs.bug-buster.ru/rukovodstvo-polzovatelya/peremennye)
 
 ![](./rabota-s-api-9.png){width=5121px height=1513px}
 
@@ -174,7 +174,7 @@ GET https://api.bugbuster.ai/orders?user={{user_id}}&status=active
 
 `=`, `!=`, `>`, `<`, `>=`, `<=`, `IN`, `NOT IN`, `LIKE`
 
-Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](http://tauri.localhost/gitlab.demo.screenmate.ai/gramax_group/rukovodstvo-polzovatelya/api_steps/-/rabota-s-api/rabota-s-json-putyami-i-obektom-response)
+Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](https://docs.bug-buster.ru/rukovodstvo-polzovatelya/rabota-s-api/rabota-s-json-putyami-i-obektom-response)
 
 ![](./rabota-s-api-10.png){width=5120px height=1904px}
 
