@@ -15,7 +15,7 @@ title: API request шаги
 
 -  передачи данных между шагами через переменные.
 
-![](./rabota-s-api.png){width=7680px height=4320px}
+![](./rabota-s-api.png){width=1920px height=1080px}
 
 ## Добавление шага API request
 
@@ -27,7 +27,7 @@ title: API request шаги
 
 3. Шаг появится в списке шагов с иконкой шестеренки (по аналогии с Expected Result).
 
-![](./rabota-s-api-2.png){width=7680px height=4320px}
+![](./rabota-s-api-2.png){width=1920px height=1080px}
 
 ### Через контекстное меню
 
@@ -35,7 +35,7 @@ title: API request шаги
 
 2. В контекстном меню выберите **«+ API Request»** -- шаг появится под шагом от которого вызывалось меню.
 
-![](./rabota-s-api-3.png){width=7680px height=4320px}
+![](./rabota-s-api-3.png){width=1920px height=1080px}
 
 ## Расширенная форма редактирования запроса
 
@@ -43,7 +43,7 @@ title: API request шаги
 
 Чтобы открыть её нажмите на иконку шестеренки рядом с шагом API request.
 
-![](./rabota-s-api-4.png){width=7680px height=4320px}
+![](./rabota-s-api-4.png){width=1920px height=1080px}
 
 ## Структура формы
 
@@ -60,7 +60,7 @@ title: API request шаги
 
 Форма закрывается только этими кнопками.
 
-![](./rabota-s-api-5.png){width=7680px height=4320px}
+![](./rabota-s-api-5.png){width=1920px height=1080px}
 
 ## Шапка формы
 
@@ -226,7 +226,7 @@ curl -X POST https://tms.bug-buster.ru/api/login \
 
 После обработки CURL-строки BugBuster преобразует её в структурированный формат с заполненными вкладками формы.
 
-![](./rabota-s-api-11.png){width=7680px height=4320px}
+![](./rabota-s-api-11.png){width=1920px height=1080px}
 
 ## Частые ошибки и советы
 
