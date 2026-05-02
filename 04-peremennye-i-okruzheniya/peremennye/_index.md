@@ -197,7 +197,7 @@ title: Переменные
 | В шагах API Request                    | `"Authorization": "Bearer {{token}}"`         |
 | В проверках Validation                 | `{{response.statusCode}} = {{expected_code}}` |
 
-📎 *Подробнее о работе с API-запросами см. инструкцию* [Работа с API](http://tauri.localhost/gitlab.demo.screenmate.ai/gramax_group/rukovodstvo-polzovatelya/api_steps/-/rabota-s-api)
+📎 *Подробнее о работе с API-запросами см. инструкцию* [Работа с API](../../03-sozdanie-testov/api-request-shagi/rabota-s-api)
 
 ## Указание переменных в шагах
 

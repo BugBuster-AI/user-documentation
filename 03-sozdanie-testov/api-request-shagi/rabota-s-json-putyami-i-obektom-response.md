@@ -7,7 +7,7 @@ title: Работа с response
 
 Эта инструкция описывает, как получать нужные данные из ответа на запрос (`response`) при работе с вкладками **Variables** и **Validations**.
 
-Подробнее про эти вкладки см. инструкцию [API request шаги](https://docs.bug-buster.ru/rukovodstvo-polzovatelya/rabota-s-api)
+Подробнее про эти вкладки см. инструкцию [API request шаги](./rabota-s-api)
 
 ## Что такое `response`
 
