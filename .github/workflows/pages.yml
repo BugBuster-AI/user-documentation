@@ -1,7 +1,10 @@
 name: Deploy documentation to GitHub Pages
 
-# Пока только вручную: Actions → этот workflow → Run workflow → выбор ветки (в т.ч. из PR).
 on:
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch:
 
 permissions:
