@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* Соответствует палитре лендинга BugBuster: landing/src/index.css */
+
+body#custom-style[data-theme="dark"] {
+	--app-font-famaly: Inter, system-ui, "Segoe UI", Roboto, sans-serif;
+
+	/* База чуть светлее лендинга; градиент — та же логика, что landing/src/index.css */
+	--bb-bg0: #0b0720;
+	--bb-bg1: #1a1038;
+
+	--grey-05: #120b28;
+	--grey-10: #181038;
+	--grey-20: rgba(255, 255, 255, 0.12);
+	--grey-30: rgba(255, 255, 255, 0.16);
+	--grey-60: rgba(247, 243, 255, 0.55);
+	--grey-70: rgba(247, 243, 255, 0.65);
+	--grey-90: rgba(247, 243, 255, 0.88);
+	--grey-100: rgba(247, 243, 255, 0.96);
+
+	--accent-80: #b490ff;
+	--accent-100: #5503ff;
+
+	--color-link: var(--accent-80);
+
+	--color-primary: var(--grey-100);
+	--color-primary-general: rgba(247, 243, 255, 0.76);
+	--color-primary-inverse: var(--grey-100);
+	--color-primary-general-inverse: rgba(247, 243, 255, 0.76);
+
+	--color-tooltip-background: #2e1f48;
+
+	--color-nav-item: var(--grey-70);
+	--color-nav-item-selected: var(--grey-100);
+	--color-nav-menu-bg: rgba(12, 8, 32, 0.93);
+	--color-lev-sidebar-hover: rgba(180, 144, 255, 0.1);
+
+	--color-right-nav-bg: rgba(26, 16, 52, 0.9);
+	--color-line: var(--grey-20);
+	--color-merge-request-border: var(--grey-20);
+
+	--version-control-primary: var(--accent-80);
+
+	--color-article-heading-text: var(--grey-100);
+	--color-article-text: rgba(247, 243, 255, 0.78);
+	--color-article-strong-text: var(--grey-100);
+	--color-article-bg: #0f0826;
+
+	--color-admonition-quote-border: var(--grey-60);
+	--color-admonition-quote-bg: rgba(255, 255, 255, 0.05);
+	--color-admonition-text: var(--grey-70);
+
+	--color-btn-default-bg: var(--accent-100);
+	--color-btn-default-text: #fff;
+	--border-btn-default: 1px solid transparent;
+	--opacity-btn-default-bg-hover: 1;
+	--color-btn-default-text-hover: #fff;
+	--color-btn-default-bg-hover: var(--accent-80);
+
+	--color-btn-underline-text: var(--grey-100);
+	--color-btn-underline-text-hover: var(--accent-80);
+
+	--color-home-bg: #0f0826;
+	--color-home-card-link: var(--grey-70);
+	--color-home-card-link-hover: var(--grey-100);
+	--color-home-card-bg: rgba(255, 255, 255, 0.05);
+	--color-home-card-bg-hover: rgba(180, 144, 255, 0.12);
+	--color-home-card-border: var(--grey-20);
+	--color-home-card-border-hover: rgba(180, 144, 255, 0.4);
+	--box-shadow-home-card: rgba(85, 3, 255, 0.25) 0 8px 28px -8px;
+
+	color-scheme: dark;
+}
+
+/* В Gramax: .article strong { font-weight: 500 } — на Inter мало контраста с 400 */
+body#custom-style[data-theme="dark"] .article .article-body table th,
+body#custom-style[data-theme="dark"] .article strong {
+	font-weight: 600;
+}
+
+body#custom-style[data-theme="dark"] .article h1 strong,
+body#custom-style[data-theme="dark"] .article h2 strong,
+body#custom-style[data-theme="dark"] .article h3 strong,
+body#custom-style[data-theme="dark"] .article h4 strong,
+body#custom-style[data-theme="dark"] .article h5 strong,
+body#custom-style[data-theme="dark"] .article h6 strong {
+	font-weight: inherit;
+}
+
+body#custom-style[data-theme="dark"] .catalog-layout {
+	background:
+		radial-gradient(
+			900px circle at 20% -10%,
+			rgba(180, 144, 255, 0.34) 0%,
+			rgba(180, 144, 255, 0) 62%
+		),
+		radial-gradient(
+			900px circle at 90% 10%,
+			rgba(85, 3, 255, 0.28) 0%,
+			rgba(85, 3, 255, 0) 58%
+		),
+		linear-gradient(180deg, var(--bb-bg0) 0%, var(--bb-bg1) 100%);
+}
+
+body#custom-style .top-bar-content-wrapper img {
+	height: 1.75rem;
+	width: auto;
+	max-width: 2.5rem;
+	object-fit: contain;
+	vertical-align: middle;
+}

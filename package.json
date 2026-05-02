@@ -1,0 +1,20 @@
+{
+  "name": "user-documentation",
+  "private": true,
+  "type": "module",
+  "description": "Статический портал Gramax (сборка gramax-cli)",
+  "scripts": {
+    "check": "gramax-cli check -d .",
+    "build": "node scripts/build-site.mjs",
+    "preview": "npx --yes serve dist -l 4173",
+    "build:run": "npm ci && npm run build && npm run preview"
+  },
+  "devDependencies": {
+    "gramax-cli": "1.0.39",
+    "sharp": "^0.33.5",
+    "to-ico": "^1.1.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
