@@ -19,7 +19,7 @@ title: API request шаги
 
 ## Добавление шага API request
 
-### Способ 1. Через кнопку добавления шага
+### Через кнопку добавления шага
 
 1. Откройте форму **редактирования тест-кейса**.
 
@@ -152,9 +152,9 @@ GET https://api.bugbuster.ai/orders?user={{user_id}}&status=active
 | `token`       | `{{response.body.token}}`    |
 | `order_id`    | `{{response.body.order.id}}` |
 
-Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](../rabota-s-json-putyami-i-obektom-response)
+Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](./../rabota-s-json-putyami-i-obektom-response)
 
-Подробнее о создании и редактировании переменных см. инструкцию [Переменные](../../../04-peremennye-i-okruzheniya/peremennye)
+Подробнее о создании и редактировании переменных см. инструкцию [Переменные](./../../../04-peremennye-i-okruzheniya/peremennye/_index)
 
 ![](./rabota-s-api-9.png){width=5121px height=1513px}
 
@@ -174,7 +174,7 @@ GET https://api.bugbuster.ai/orders?user={{user_id}}&status=active
 
 `=`, `!=`, `>`, `<`, `>=`, `<=`, `IN`, `NOT IN`, `LIKE`
 
-Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](../rabota-s-json-putyami-i-obektom-response)
+Подробнее о том как работать с объектом `response` см. инструкцию [Работа с response](./../rabota-s-json-putyami-i-obektom-response)
 
 ![](./rabota-s-api-10.png){width=5120px height=1904px}
 
